@@ -1,0 +1,21 @@
+{
+  "name": "subito-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server-start.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server-start.js",
+    "cli": "node cli.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "supertest": "^6.1.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "inquirer": "^8.2.0"
+  }
+}

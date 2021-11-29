@@ -1,0 +1,7 @@
+FROM node:16
+
+WORKDIR /mnt
+COPY . .
+
+EXPOSE 9090
+
